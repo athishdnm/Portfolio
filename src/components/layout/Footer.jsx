@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 function Footer() {
   const currentYear = new Date().getFullYear()
 
-    const socialLinks = [
-    { label: 'GitHub',   href: 'https://github.com/athishdnm'  },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/athish-krishna/' },
-    { label: 'Email',    href: 'mailto:athish.krishna90@outlook.com'            },
-  ]
+//     const socialLinks = [
+//     { label: 'GitHub',   href: 'https://github.com/athishdnm'  },
+//     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/athish-krishna/' },
+//     { label: 'Email',    href: 'mailto:athish.krishna90@outlook.com'            },
+//   ]
 
   return (
     <footer className="bg-gray-900 text-white">
@@ -25,7 +25,7 @@ function Footer() {
           <p className="text-gray-600 text-sm">
             Built with React + Tailwind CSS
           </p>
-          <div className="flex gap-6">
+          {/* <div className="flex gap-6">
           {socialLinks.map((link) => (
             <a
               key={link.label}
@@ -37,7 +37,7 @@ function Footer() {
               {link.label}
             </a>
           ))}
-        </div>
+        </div> */}
         </div>
       </div>
 
