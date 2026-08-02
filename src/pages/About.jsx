@@ -1,4 +1,5 @@
 import skills from '../data/skills';
+import experiences from '../data/experience';
 
 const levelColor = {
     Beginner: 'br-gray-100 text-gray-600',
@@ -14,7 +15,11 @@ function About() {
 
                 {/** Bio */}
                 <p className='text-gray-500 text-lg leading-relaxed mb-12'>
-                    I am a frontend developer currently building real-world projects with React, Vite, and Tailwind CSS. I am passionate about creating clean user interfaces and learning modern web technologies. Currently open to junior frontend developer roles.
+                    Frontend Engineer with 8+ years of experience building scalable web applications using React, JavaScript
+and modern frontend architecture. Experienced in developing high-performance UI systems, integrating
+REST and GraphQL APIs, and delivering production applications across enterprise marketing technology
+and B2B distribution platforms. Strong focus on performance, flexibility and reusable component
+architecture.
                 </p>  
 
                 {/** Skills */} 
@@ -31,13 +36,15 @@ function About() {
                 <h3 className='text-2xl font-bold text-gray-900 mt-12 mb-6'>
                     Experience
                 </h3>
-                <div className='border-l-2 border-gray-200 pl-6'>
-                    <div className='mb-6'>
-                        <p className='text-sm text-gray-400'>2024 - Present</p>
-                        <h4 className="font-bold text-gray-900">Frontend Developer</h4>
-                        <p className="text-gray-500 text-sm">Your Company Name</p>
-                    </div>
-                </div>
+                {experiences.sort((a,b) => b.rank - a.rank).map((experience, index) => (
+                    <div key={index} className='border-l-2 border-gray-200 pl-6 mb-6'>
+                        <div className='mb-6'>
+                            <p className='text-sm text-gray-400'>{experience.year}</p>
+                            <h4 className="font-bold text-gray-900">{experience.position}</h4>
+                            <p className="text-gray-500 text-sm">{experience.company}</p>
+                        </div>
+                    </div>  
+                ))}
 
             </div>
         </>

@@ -14,7 +14,6 @@ function Footer() {
     <footer className="bg-gray-900 text-white">
 
       {/* Main Footer Content */}
- 
 
       {/* Bottom Bar */}
       <div className="border-t border-gray-800">
