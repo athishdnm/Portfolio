@@ -2,15 +2,15 @@
 const projects = [
   {
     id: 1,
-    title: 'Auth Platform',
-    description: 'Full stack authentication app with signup, login, and dashboard built with React and Firebase.',
+    title: 'Kanban Task Manager',
+    description: 'A Kanban-style task management board with four columns featuring full CRUD operations, priority levels, due dates and card movement between columns.',
     tech: ['React', 'Vite', 'Tailwind CSS', 'Firebase'],
-    github: 'https://github.com/yourusername/auth-platform',
-    live: 'https://your-app.web.app',
+    github: 'https://github.com/athishdnm/athish-react-app',
+    live: 'https://athish-kanban.web.app/',
   },
   {
     id: 2,
-    title: 'Project Two',
+    title: 'Weather App',
     description: 'Description of your second project.',
     tech: ['React', 'Node.js'],
     github: 'https://github.com/yourusername/project-two',
