@@ -11,10 +11,10 @@ const projects = [
   {
     id: 2,
     title: 'Weather App',
-    description: 'Description of your second project.',
-    tech: ['React', 'Node.js'],
-    github: 'https://github.com/yourusername/project-two',
-    live: 'https://project-two.web.app',
+    description: 'Real-time weather app with 5-day forecast, multiple city tracking and hourly rain chart using OpenWeatherMap API.',
+    tech: ['React', 'Vite', 'Tailwind CSS', 'OpenWeatherMap API', 'Firebase'],
+    github: 'https://github.com/athishdnm/weather-app',
+    live: 'https://athish-weather-app.web.app/',
   },
 ]
 
