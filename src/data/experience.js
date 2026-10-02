@@ -37,7 +37,7 @@ const experience = [
     },
     {
         year: '2026 - Present',
-        position: 'Frontend Engineer',
+        position: 'Full Stack Developer',
         company: 'Solution Community',
         description: '',
         rank:6

@@ -15,11 +15,7 @@ function About() {
 
                 {/** Bio */}
                 <p className='text-gray-500 text-lg leading-relaxed mb-12'>
-                    Frontend Engineer with 8+ years of experience building scalable web applications using React, JavaScript
-and modern frontend architecture. Experienced in developing high-performance UI systems, integrating
-REST and GraphQL APIs, and delivering production applications across enterprise marketing technology
-and B2B distribution platforms. Strong focus on performance, flexibility and reusable component
-architecture.
+                    Software Developer with 10+ years of experience building web applications across the full stack. Most of my career has been in PHP (CodeIgniter), MySQL, and JavaScript, building internal tools and business platforms at Ingram Micro and at IBI Systems, a product startup. More recently I've focused on React: modernizing jQuery front ends into reusable components, and now shipping features with a team as a volunteer engineer at Solution Community. I care about fast, maintainable code, and my Master's in Cybersecurity means I build with security in mind from the start.
                 </p>  
 
                 {/** Skills */} 

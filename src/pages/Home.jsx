@@ -11,7 +11,7 @@ function Home() {
                 
                 <h1 className="text-5xl font-bold text-gray-900 mb-4">Hi, I'm Athish Krishna</h1>
                 <p className="text-xl text-gray-500 max-w-xl mb-8">
-                    Frontend Developer passionate about building clean, user-friendly web applications with React and modern web technologies.
+                    Software Developer building clean, reliable web applications, from React front ends to PHP and MySQL back ends.
                 </p>
 
                 <div className='flex gap-4'>
